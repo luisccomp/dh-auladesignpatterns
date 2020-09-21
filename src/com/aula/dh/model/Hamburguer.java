@@ -1,6 +1,8 @@
 package com.aula.dh.model;
 
-public abstract class Hamburguer {
+import com.aula.dh.core.Acompanhamento;
+
+public abstract class Hamburguer implements Acompanhamento {
 	
 	private TipoCarne tipo;
 	private int quantidade;
